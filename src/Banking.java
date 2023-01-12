@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class Banking {
-    public static String name = ""; //FOR CREATING AN INSTANCE OF BANKING CLASS
+    public static String name = ""; //FOR SETTING A NAME OF BANKING CLASS
     private static String pin= "0123"; //PIN CODE SET
     public static void exit() { //EXIT MESSAGE
         System.out.println("Exiting...");
@@ -119,7 +119,10 @@ public class Banking {
         }
     }
 
-    public static void main(String[] args) { // MAIN METHOD
+ /*   public static void main(String[] args) { // MAIN METHOD
+
         exec(); // METHOD CALL
     }
+
+  */
 }
